@@ -1,0 +1,142 @@
+body{
+    
+    background-image: url(fuu.png);
+
+}
+
+h1{
+    text-align:end;
+    font-family:'UnifrakturMaguntia', sans-serif;
+    font-size: 70px;
+align-items: center;
+color:#ffffff;
+border: 0;
+border-radius: 6px;
+height: 70px;
+padding: 0 32px;
+
+position: absolute;
+top: 80%;
+left: 80%;
+transform: translate(-50%, -50%);
+
+}
+
+
+    button{
+        position: relative;
+       cursor: pointer;
+       background-color:#fcd600;
+       color: #000000;
+       font-size: 16px;
+       font-weight: bold;
+       border: 0;
+       border-radius: 6px;
+       height: 48px;
+       padding: 0 32px;
+
+       transition: filter 0.1s;
+
+    }
+.container{
+margin-top: 10px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+
+
+}
+.hide{
+   display: none;
+}
+
+.controle-container{
+  color: #3f3185;
+  margin: 0;
+    padding: 0;
+    
+}
+.correct {
+    background-color: #307a05;
+  }
+  
+  .incorrect {
+    background-color: #fd0505;
+  }
+
+  .botao{
+    cursor: pointer;
+    background-color:#21679f;
+  }
+
+  .respostas-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    padding: auto;
+    
+  }
+  .question {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    font-family: 'Pirata one' , sans-serif;
+    padding: 20px;
+    margin: 50px;
+    border: 50px;
+  }
+
+  .next{
+    margin-top: 32px;
+    align-items: center;
+  }
+  .button:not(:disabled):hover {
+    filter: brightness(0.8);
+  }
+  .questoes-container{
+    gap: 40px;
+    width: 100%;
+    margin: 40px;
+  align-items: center;
+  }
+
+
+  .cronometro {
+    text-align: center;
+    color: #ffffff;
+    
+}
+
+#tempo {
+    font-size: 2em;
+    margin: 10px;
+}
+
+.liink{
+ 
+       cursor: pointer;
+       background-color:#06bb00;
+       color: #fff;
+       font-size: 24px;
+     
+       border: 0;
+       border-radius: 6px;
+       height: 70px;
+       padding: 0 32px;
+
+       position: absolute;
+       top: 90%;
+       left: 95%;
+       transform: translate(-50%, -50%);
+       text-align: center;
+    
+      
+       line-height: 70px; 
+    
+       text-decoration: none;
+       
+       
+}

@@ -1,0 +1,45 @@
+
+img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 10px;}
+
+    h1{
+        text-align: center;
+    }
+
+    p{
+        text-align: center;
+    }
+
+   
+
+    body{
+        background-image: url(fuu.png);
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+        overflow: hidden;
+        position: relative;
+    }
+    h1{
+        font-family:'UnifrakturMaguntia', sans-serif;
+        text-align: center;
+        font-size: 100px;
+        color:#ffffff;
+      
+    }
+    .container {
+        text-align: center; /* Alinha o conteúdo no centro */
+        margin-top: 20px; 
+        padding: 20px;
+      
+    }
+
+    .img1{
+        position: relative;
+    }
